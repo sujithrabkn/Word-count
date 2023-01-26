@@ -18,6 +18,7 @@ You can refine the count by cleaning the string prior to splitting or validating
 ### Step 6: 
 End the program.
 ## PROGRAM:
+```
 Developed by : Sujithra B K N
 RegisterNumber: 22008582
 fname = input("Enter file name: ")
@@ -27,6 +28,7 @@ with open(fname, 'r') as f:
         words = line.split()
         num_words += len(words)
 print("Number of words: ", num_words)
+```
 ### OUTPUT:
 ![output](./images/wordcount.png)
 ## RESULT:
